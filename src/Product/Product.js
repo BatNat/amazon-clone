@@ -12,7 +12,7 @@ function Product({ id, title, image, price, rating }) {
         id: id,
         title: title,
         image: image,
-        pricw: price
+        price: price
       }
     })
   }

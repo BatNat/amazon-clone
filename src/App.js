@@ -9,7 +9,7 @@ import './App.css';
 import Header  from "./Header/Header";
 import Home  from "./Home/Home";
 import Checkout  from "./Checkout/Checkout";
-import { StateProvider } from "./StateProvider";
+
 
 
 function App() {
