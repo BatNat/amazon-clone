@@ -15,7 +15,6 @@ function Subtotal() {
     <div className="subtotal">
         <>
             <p>
-              {/* Part of the homework */}
               Subtotal (
               {basket.length} items): <strong>{getBasketTotal(basket)}$</strong>
             </p>
