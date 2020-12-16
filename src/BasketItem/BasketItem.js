@@ -1,6 +1,7 @@
 import React from 'react'
 
-function BasketItem({ id, image, title, price, rating }) {
+
+const BasketItem = ({ id, image, title, price, rating }) => {
     return (
         <div className="chekoutProduct">
              <img className='chekoutProduct__image' src={image} />
@@ -15,15 +16,14 @@ function BasketItem({ id, image, title, price, rating }) {
                  </p>
 
                  <div className="chekoutProduct__rating">
-                     {Array(rating)
+                     { 
+                     Array(rating)
                      .fill()
-                     .map(_, i) => (
+                     .map((_, i) => (
                          <p>
                             <p>🌟</p> 
                          </p>
-                     )
-
-                     }
+                     ))}
                  </div>
              </div>
 
